@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/food/static/css/main.10ada6a4.css",
-    "main.js": "/food/static/js/main.eea7d5b6.js",
+    "main.js": "/food/static/js/main.de076e2d.js",
     "static/js/453.2cecc6e0.chunk.js": "/food/static/js/453.2cecc6e0.chunk.js",
     "static/media/Dark-wood-planks-scaled.jpeg": "/food/static/media/Dark-wood-planks-scaled.59a36731fcf3d5219717.jpeg",
     "static/media/banner1.jpg": "/food/static/media/banner1.fd76df49f3febcb28b49.jpg",
     "static/media/logo1.png": "/food/static/media/logo1.3d5eb91439da508c2650.png",
     "index.html": "/food/index.html",
     "main.10ada6a4.css.map": "/food/static/css/main.10ada6a4.css.map",
-    "main.eea7d5b6.js.map": "/food/static/js/main.eea7d5b6.js.map",
+    "main.de076e2d.js.map": "/food/static/js/main.de076e2d.js.map",
     "453.2cecc6e0.chunk.js.map": "/food/static/js/453.2cecc6e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10ada6a4.css",
-    "static/js/main.eea7d5b6.js"
+    "static/js/main.de076e2d.js"
   ]
 }
