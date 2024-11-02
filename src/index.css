@@ -11,3 +11,150 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.back{
+  position: fixed;
+  background-image: url(./img/Dark-wood-planks-scaled.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  content: '';
+}
+
+body{
+  overflow-x: hidden;
+}
+main{
+  min-height: calc(100vh - 82px - 88px);
+}
+.categ-border{
+  border: 4px solid white;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.category-name:hover{
+  background-color: white;
+  color: black !important;
+
+}
+.bg-dark-broun{
+  background-color: rgb(37, 16, 10);
+}
+.bg-brown-opacity{
+  background-color: rgb(53, 23, 6);
+  border-radius: 20px;
+  border:4px solid white;
+}
+.border-image{
+  border: 3px solid white
+}
+.recipy-img{
+  
+  position: relative;
+  z-index: 2;
+
+}
+.recipy-img img{
+  background-color: white;
+  box-shadow: 10px 10px  0px rgba(255, 255 , 255, 1),
+   -10px -10px  0px white, 
+   -10px 10px  0px white,
+    10px -10px  0px white, 
+    -20px 20px  10px rgb(82, 93, 55)   ;
+}
+.recipy-img::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(15, 92, 15);
+  box-shadow: 20px 20px  0px rgb(15, 92, 15),
+   -20px -20px  0px rgb(15, 92, 15), 
+   -20px 20px  0px rgb(15, 92, 15),
+    20px -20px  0px rgb(15, 92, 15), 
+    -30px 30px  10px rgb(32, 19, 7)   ;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform: rotate(7deg);
+
+}
+.b-bottom{
+  border-bottom: 1px solid rgba(255, 255 , 255, 0.5);
+}
+.br-bottom{
+  border-bottom: 4px solid rgba(255, 255 , 255, 1);
+}
+
+.recipe-name{
+  top: -3rem;
+  left: 0;
+  right: 0;
+}
+.bg-orange{
+  background-color: rgb(105, 54, 17);
+}
+.bg-black-opacity{
+  background-color: rgba(0, 0 , 0, 0.5);
+}
+.cadr-text{
+  min-height: 106px !important;
+}
+.rounded-100{
+  border-radius: 100%;
+}
+.card-image{
+  border-radius: 100%;
+  background-color: white;
+  padding: 0.5rem;
+}
+.logo{
+  max-height: 50px;
+}
+input{
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid green;
+  color: white;
+  padding: 0.25rem 1rem;
+}
+input:focus, input:hover, input:active{
+  border: 2px solid rgb(133, 186, 63);
+}
+.text-green{
+  color: green
+}
+.text-grey{
+  color: gray
+}
+
+[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: none;
+}
+
+.search-svg{
+  fill:green;
+  stroke:none;
+  stroke-miterlimit:10;
+  top: .35rem;
+  right: 0.25rem;
+  height: 25px;
+}
+
+input:focus ~ svg path {
+  fill: white;
+}
+.mobile-menu-toggle img{
+  height: 10px;
+
+}
+.h-60{
+  height: 60% !important;
+}

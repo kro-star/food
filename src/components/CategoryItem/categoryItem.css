@@ -1,0 +1,48 @@
+.category-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.categ-border {
+    border: 3px solid #ccc;
+    border-radius: 10px;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-item {
+    flex-shrink: 0;
+    width: 25%; 
+    height: 100%;
+    padding-right: 10px;
+}
+
+.slider-controls {
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    z-index: 5; 
+}
+
+.prev-button, .next-button  {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    
+    width: 20%; 
+    border: 2px solid white;
+}
+
+/* Добавьте стили для стрелок, чтобы сделать их более приятными */
+.slider-controls button:hover {
+   
+    color: black;
+}
